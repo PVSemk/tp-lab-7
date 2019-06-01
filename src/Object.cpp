@@ -7,11 +7,6 @@ Object::Object(Cell *c) : cell(c)
 {
 }
 
-void Object::setCell(Cell *c)
-{
-    cell = c;
-}
-
 Cell* Object::getCell()
 {
     return cell;

@@ -26,13 +26,13 @@ Ocean::~Ocean()
         delete obj;
 }
 
-void Ocean::print() const
+void Ocean::print(std::ostream& stream) const
 {
     for (int i(0); i < N; i++)
     {
         for (int j(0); j < M; j++)
-            cout << (cells[i][j].getObject() ? cells[i][j].getObject()->getChar() : '.');
-        cout << endl;
+            stream << (cells[i][j].getObject() ? cells[i][j].getObject()->getChar() : '.');
+        stream << endl;
     }
 }
 

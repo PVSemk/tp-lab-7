@@ -18,7 +18,7 @@ class Ocean
 public:
     Ocean();
     ~Ocean();
-    void print() const;
+    void print(std::ostream&) const;
     void addObjects(ObjType type, unsigned int amount);
     void addStuff(Object* obj);
     void deleteObject(Object* obj);

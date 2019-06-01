@@ -9,7 +9,6 @@
 #include "Object.h"
 #include "Ocean.h"
 
-class Ocean;
 class Cell
 {
     friend Ocean;

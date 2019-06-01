@@ -25,7 +25,6 @@ public:
     virtual char getChar() = 0;
     virtual void move() {};
     virtual void reproduce() {};
-    void setCell(Cell*c);
     Cell* getCell();
     ObjType getType();
     void setLifetime(size_t lt);

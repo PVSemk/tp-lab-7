@@ -15,7 +15,7 @@ int main()
         ocean.run();
         //sleep(2);
         std::cout << "\n\n" << std::endl;
-        ocean.print();
+        ocean.print(std::cout);
     }
 
     return 0;
